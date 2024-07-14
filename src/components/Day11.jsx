@@ -4,7 +4,7 @@ import React, { useEffect, useState } from 'react'
 const Day11 = () => {
     const[weather,setWeather]=useState(null)
     const[error,setError]=useState(null)
-    const api_key='d62e3c20bcd85cadf266b3a924debc48'
+    const api_key='f1a1da9d60ab0537aefe5fab67a51c16'
     useEffect(()=>{
         if(navigator.geolocation){
             navigator.geolocation.getCurrentPosition(position=>{
