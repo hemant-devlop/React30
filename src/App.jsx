@@ -17,6 +17,8 @@ import Day2 from './components/Day2'
 import Day20 from './components/Day20'
 import Day21 from './components/Day21'
 import Day22 from './components/Day22'
+import Day23 from './components/Day23'
+import Day24 from './components/Day24'
 import Day3 from './components/Day3'
 import Day4 from './components/Day4'
 import Day5 from './components/Day5'
@@ -56,7 +58,9 @@ const App = () => {
       {/* <AuthProvider>
       <Day21/>
       </AuthProvider> */}
-      <Day22/>
+      {/* <Day22/> */}
+      {/* <Day23/> */}
+      <Day24/>
     </div>
   )
 }
