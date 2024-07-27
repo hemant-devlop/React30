@@ -1,0 +1,83 @@
+#root{
+    padding: 0;
+    background-color: beige;
+}
+.weather-app{
+    height: 100vh;
+    width: 60vw;
+    margin: 0 auto;
+    background-image: url('https://cdn.zeebiz.com/sites/default/files/2023/07/04/249475-delhi-weather-today-rain.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+     background-size: cover;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.hot{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1Vv9WC9l9D9JeGrYa__7z7KIweqVJ_sZ1fA&s');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+.cold{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqh6_S1SWmiFEHasvgCJD0CRNVwRlWOaeRAw&s');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+
+}
+
+.weather-input{
+    border: none;
+    outline: none;
+    font-size: 20px;
+    padding: 5px;
+    width: 50vw;
+    height: 40px;
+    margin-top:0;
+    box-shadow: 5px 5px 20px rgba(50, 50, 50, 0.8);
+    border-radius: 0px 0px 10px 10px;
+}
+
+.weather-temp{
+    /* background-color: red; */
+    color: whitesmoke;
+    height: 140px;
+    width: 200px;
+    border-radius: 8px;
+    font-size: 80px;
+    font-weight: 900;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 2px 5px 20px  rgba(50, 50, 50, 0.5) ;
+    box-shadow: 2px 5px 20px  rgba(50, 50, 50, 0.5) ;
+    
+}
+
+.weather-temp-type{
+    color: whitesmoke;
+    font-size: 40px;
+    font-weight: 700;
+    text-shadow: 2px 5px 20px  rgba(0, 0, 0, 0.813) ;
+    margin: 10px;
+
+}
+.weather-name{
+    color: whitesmoke;
+    text-shadow: 2px 5px 20px  rgba(0, 0, 0, 0.813) ;
+    font-size: 40px;
+    margin: 20px 0 0 0;
+}
+.weather-date{
+    margin: 10px;
+    color: whitesmoke;
+    text-shadow: 2px 5px 20px  rgba(0, 0, 0, 0.813) ;
+    font-size: 20px;
+}

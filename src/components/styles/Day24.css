@@ -1,6 +1,6 @@
-body{
+/* .todo-body{
     background: #828282;
-}
+} */
 .todo-menu{
     width: 400px;
     margin: 0 auto;
@@ -14,7 +14,7 @@ body{
 .todo-input{
     margin: 10px 0;
 }
-input[type=text]{
+/* input[type=text]{
     border-radius: 8px;
     border: 1px solid #cccef8 ;
     padding: 0.6em 1.2em;
@@ -22,13 +22,12 @@ input[type=text]{
     font-weight: 500;
     font-family: inherit;
     background-color: #fff;
-    cursor: pointer;
     transition: border-color 0.25s;
     margin: 0 10px;
-}
-input:focus{
+} */
+/* input:focus{
     outline: 1px solid #646cff;
-}
+} */
 
 .todo-td{
     background-color: rgb(2, 238, 255);

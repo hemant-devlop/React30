@@ -49,8 +49,8 @@ const Day24 = () => {
             </div>
             <table style={{borderCollapse:'collapse'}}>
                 <tbody className='todo-tr'>
-                    {todos.map(item => <tr  key={item.id}>
-                        <td className='todo-td'>{item.text}</td>
+                    {todos.map((item,i) => <tr  key={item.id}>
+                        <td className='todo-td'>{i+1}.{item.text}</td>
                         <td className='todo-td'><button onClick={() => handleDelete(item.id)}>Delete</button></td>
                         <td className='todo-td'><button onClick={() => handleEdit(item)}>edit</button></td>
                     </tr>)}
